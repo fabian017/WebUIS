@@ -34,7 +34,7 @@ header h1{
 
 .logouis{
     height: 100px;
-    width: 160px;
+    width: 180px;
     margin: 25px;
 }
 
@@ -48,8 +48,8 @@ header h1{
        
     
 }
-.contenedor2{   /* controla la primera parte de la pagina */
-    width: 20%;
+.contenedor2{   
+    width: 25%;
     max-width : 1280px;
     margin: auto;
 }
@@ -71,13 +71,14 @@ label{
     background: #7fffd3;
     border-radius: 20px;
     margin-bottom: 10px;
+     border-style: solid;
     
 }
 
 .enviar{
     margin-top: 20px;
     padding: 8px;
-    background: #ffac6f;
+    background: rgb(227, 8, 8);
     border-style: solid;
     border-width: 5px;
     border-color: black;
@@ -93,4 +94,88 @@ label{
 a{
     text-decoration: none;
     color: blue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* galeria imagenes */
+
+
+#galeria {      
+    display:flex;  /* para que se ponga las fotos una del lado de la otra*/
+    flex-wrap: wrap; /*para que baje cuando ya no hay campos */
+    
+}
+
+#galeria img{
+    width: 100%; /*para que las imagenes ocupen todo el largo */
+    
+}
+
+ .foto{
+    width: 25%;     /* lo que la imagen va ocupar en el ancho */
+    position: relative;   /* va de la mano con el absolute */ 
+     overflow: hidden; /* efecto de agranda la imagen no se vea feo */
+}
+
+.oculto{
+    position: absolute;   /* para que el texto se ubique dentro de la pagina */
+    top: 0;            /* ubicar el texto dentro de la imagen*/
+    left: 0;            
+    background: #00000070;  /*color del fondo */
+    width: 100%;          /*que ocupe todo */
+    height: 100%;          /* que ocupe todo */
+    color:white;
+    text-align: center;
+    display: none;     /* para que no se vea */
+}
+
+.oculto h4 {
+    top: 40%;
+    position: relative; /* acomdar el texto */
+}
+
+.agrandar{
+    transform: scale(1.2,1.2); /* un elemento escale */
+    transition: 0.2s;
 }
