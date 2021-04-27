@@ -12,11 +12,11 @@
         <img src="images/UIS-logo1.png" class="logouis"><br>
         <label>Nombre:  </label> <input type="text" placeholder="Escriba su nombre" required> 
         <br>
-        <label>Apellidos:  </label><input type="text" placeholder="Escriba su apellido">
+        <label>Apellidos:  </label><input type="text" placeholder="Escriba su apellido" required>
         <br>
-        <label>Contraseña:  </label><input type="password" placeholder="Digite una contraseña">
+        <label>Contraseña:  </label><input type="password" placeholder="Digite una contraseña" required>
         <br>
-        <label>Confirmar contraseña:  </label><input type="password" placeholder="confirme su contraseña">
+        <label>Confirmar contraseña:  </label><input type="password" placeholder="confirme su contraseña" required>
         <div>
         <label>Identificacion</label>
         <select>
@@ -28,11 +28,11 @@
     
         <fieldset>
         <legend>Seleccion su sexo</legend>
-        <input type="radio" id="hombre" name="contact">
+        <input type="radio" id="hombre" name="contact" required>
         <label for="hombre">Hombre</label><br>
-        <input type="radio" id="mujer" name="contact">
+        <input type="radio" id="mujer" name="contact" required>
         <label for="mujer">Mujer</label><br>
-        <input type="radio" id="otro" name="contact">
+        <input type="radio" id="otro" name="contact" required>
         <label for="otro">Otro</label>
         </fieldset>
 
@@ -41,7 +41,7 @@
         <legend>Datos personales</legend>
         <div>
             <label>Departamento</label>
-            <select>
+            <select required>
                 <option value="Amazonas">Amazonas</option>
                 <option value="Antioquia">Antioquia</option>
                 <option value="Arauca">Arauca</option>
@@ -75,8 +75,8 @@
 
             </select>
         </div>
-        <label>Edad: </label><input type="number" placeholder=" Escribe tu edad"><br>
-        <label> Fecha de Nacimiento</label><input type="date" placeholder=" Dia de Nacimiento">
+        <label>Edad: </label><input  required type="number" placeholder=" Escribe tu edad"><br>
+        <label> Fecha de Nacimiento</label><input required type="date" placeholder=" Dia de Nacimiento">
         <br>
         <label>Temas de interes</label><br>
         <textarea name="Temas de interes" cols="30" rows="10" placeholder="Bases de datos, Arquitectura Web, Analisis y programacion, Calidad "></textarea> 
