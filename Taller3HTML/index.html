@@ -4,11 +4,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" >
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap" rel="stylesheet">
     
     <title>Document</title>
 </head>
 <body>
-   <h1>Iniciar Sesion</h1>
+   <header>
+       <div class="contenedor ">
+          
+          <img src="images/HTML_logo.png" class="logohtml">
+           <h1>Iniciar sesion</h1>
+           <img src="images/UIS-logo1.png" class="logouis">
+         
+       </div>
+          <div class="login">
+            <label>Nombre de Usuario </label> <input type="text" placeholder="Escriba su nombre" required>
+            <label>Contraseña </label> <input type="password" placeholder="Digite su comtraseña" required>
+            <input type="submit" name="button" id="button" value="Entrar" onclick="location.href = 'datos_usuarios.html' ">
+          </div>
+         <div>
+       <p>¿Has olvidado tu contraseña? haga click <a href="#">Aqui</a></p>
+       <p>Desarollado por la <a href="https://www.uis.edu.co/webUIS/es/index.jsp">Universidad Industrial De Santander</a></p>
+       </div>
+    </header>
+    
     
 </body>
 </html>

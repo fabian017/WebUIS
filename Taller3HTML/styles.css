@@ -1,0 +1,51 @@
+header{
+    font-family: 'Titillium Web', sans-serif;
+  
+    background-image: url(images/beach-1852945_1280.jpg);  /* pone fondo de pantalla */
+    height: 100vh;  /* controla lo largo de la pagina */ 
+    background-size: cover; /* acomada la imagen en la pantalla */
+    
+
+}
+
+header h1{
+    text-align: center;
+    font-size: 50px;
+}
+
+
+
+.contenedor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.logohtml{
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+}
+
+.logouis{
+    height: 100px;
+    width: 160px;
+    margin: 25px;
+}
+
+.login{
+    text-align: center;
+    background: #5cd373;
+    padding: 40px;
+    width: 50%;
+    align-items: center;
+    
+    
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+}
