@@ -4,46 +4,85 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Datos usuario</title>
 </head>
 <body>
     <form>
         <h2>Rellena tu CV</h2>
-        <label>Nombre: </label> <input type="text" placeholder="Escribe tu nombre" required> 
+        <img src="images/UIS-logo1.png" class="logouis"><br>
+        <label>Nombre:  </label> <input type="text" placeholder="Escriba su nombre" required> 
         <br>
-        <label>    Apellidos: </label><input type="text" placeholder="Escribe tu apellido">
+        <label>Apellidos:  </label><input type="text" placeholder="Escriba su apellido">
         <br>
-        <label>Edad: </label><input type="number" placeholder=" Escribe tu edad">
-        <label> Fecha de Nacimiento</label><input type="date" placeholder=" Dia de Nacimiento">
+        <label>Contraseña:  </label><input type="password" placeholder="Digite una contraseña">
         <br>
-       
+        <label>Confirmar contraseña:  </label><input type="password" placeholder="confirme su contraseña">
+        <div>
+        <label>Identificacion</label>
         <select>
-            <h2> Como nos has conocido</h2>
-            <option value="Maculino"> Hombre</option>
-            <option value="Femenino">Telefono</option>
+            <option value="CC">CC</option>
+            <option value="TI">TI</option>
+            <option value="CE">CE</option>
         </select>
-        <br>
-        <textarea name="" id="" cols="30" rows="10"></textarea>
-        <br>
-        <legend>Datos personales</legend>
+        </div>
+    
+        <fieldset>
+        <legend>Seleccion su sexo</legend>
         <input type="radio" id="hombre" name="contact">
-        <label for="hombre">Hombre</label>
+        <label for="hombre">Hombre</label><br>
         <input type="radio" id="mujer" name="contact">
-        <label for="mujer">Mujer</label>
+        <label for="mujer">Mujer</label><br>
         <input type="radio" id="otro" name="contact">
         <label for="otro">Otro</label>
+        </fieldset>
+
        
         <fieldset>
+        <legend>Datos personales</legend>
+        <div>
+            <label>Departamento</label>
+            <select>
+                <option value="Amazonas">Amazonas</option>
+                <option value="Antioquia">Antioquia</option>
+                <option value="Arauca">Arauca</option>
+                <option value="Atlántico">Atlántico</option>
+                <option value="Bolívar">Bolívar</option>
+                <option value="Boyacá">Boyacá</option>
+                <option value="Caldas">Caldas</option>
+                <option value="Caquetá">Caquetá</option>
+                <option value="Casanare">Casanare</option>
+                <option value="Cauca">Cauca</option>
+                <option value="Cesar">Cesar</option>
+                <option value="Chocó">Chocó</option>
+                <option value="Cundinamarca">Cundinamarca</option>
+                <option value="Guainía">Guainía</option>
+                <option value="Guaviare">Guaviare</option>
+                <option value="Huila">Huila</option>
+                <option value="Guajira">Guajira</option>
+                <option value="Magdalena">Magdalena</option>
+                <option value="Meta">Meta</option>
+                <option value="Nariño">Nariño</option>
+                <option value="Norte de Santander">Norte de Santander</option>
+                <option value="Putumayo">Putumayo</option>
+                <option value="Quindío">Quindío</option>
+                <option value="Risaralda">Risaralda</option>
+                <option value="San Andrés y Providencia">San Andrés y Providencia</option>
+                <option value="Santander">Santander</option>
+                <option value="Sucre">Sucre</option>
+                <option value="Tolima">Tolima</option>
+                <option value="Valle del Cauca">Valle del Cauca</option>
+                <option value="Vaupés">Vaupés</option>
 
-            <legend>Datos personales</legend>
-            <input type="radio" id="email1" name="contact">
-            <label for="email1">Email</label>
-            <input type="radio" id="telefono1" name="contact">
-            <label for="telefono1">Telefono</label>
-            <br>
-            
+            </select>
+        </div>
+        <label>Edad: </label><input type="number" placeholder=" Escribe tu edad"><br>
+        <label> Fecha de Nacimiento</label><input type="date" placeholder=" Dia de Nacimiento">
+        <br>
+        <label>Temas de interes</label><br>
+        <textarea name="Temas de interes" cols="30" rows="10"></textarea> 
         </fieldset>
-        <input type="submit" value="Enviar">
+        <input type="submit" value="Guardar cambios">
+        <input type="submit" value="Borrar datos introducidos">
 
         <br>
     </form>
