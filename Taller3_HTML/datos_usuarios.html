@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Datos usuario</title>
-    <link rel="stylesheet" href="datos_usuarios.css">
+    <link rel="stylesheet" href="datos.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap" rel="stylesheet">
 
@@ -13,18 +13,26 @@
 <body>
     <form>
         <header class="encabezado">
+            <div class="titulo">
             <h2>Rellena tu CV</h2>
+            
             <img src="images/UIS-logo1.png" class="logouis">
+            </div>
         </header>
+        <div class="contenedor">
+            <div class="datos">
         <label>Nombre:  </label> <input type="text" placeholder="Escriba su nombre" required> 
         <br>
         <label>Apellidos:  </label><input type="text" placeholder="Escriba su apellido" required>
         <br>
         <label>Contraseña:  </label><input type="password" placeholder="Digite una contraseña" required>
         <br>
-        <label>Confirmar contraseña:  </label><input type="password" placeholder="confirme su contraseña" required>
-        <div>
+        <label>Confirmar contraseña:</label><input type="password" placeholder="Confirme su contraseña" required>
+        </div>
+        </div>
+        <div class="identi">
         <label>Identificacion</label>
+        
         <select>
             <option value="CC">CC</option>
             <option value="TI">TI</option>

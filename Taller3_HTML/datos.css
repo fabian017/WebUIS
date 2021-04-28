@@ -1,0 +1,60 @@
+header{
+     width: 100%;
+    max-width : 1280px;
+    margin: auto;
+   
+}
+
+
+.titulo{
+     display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+
+.logouis{
+    height: 100px;
+    width: 180px;
+    margin: 25px;
+}
+.encabezado{
+        background-image: url(images/background-2076334_1280.jpg);
+     height: 30vh;  /* controla lo largo de la pagina */ 
+    background-size: cover; /* acomada la imagen en la pantalla */
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.contenedor{
+   width: 90%;
+    max-width : 1280px;
+    margin: auto;
+}
+
+
+.datos{
+    flex-direction:row;
+    margin-top: 10vh;
+    color: black;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+       
+    
+}
+
+
+.identi{
+    margin-top: 20px;
+    
+}
