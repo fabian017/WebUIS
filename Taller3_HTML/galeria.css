@@ -1,5 +1,7 @@
 /* galeria imagenes */
-
+body{
+    font-family: 'Titillium Web', sans-serif;
+}
 
 #galeria {      
     display:flex;  /* para que se ponga las fotos una del lado de la otra*/
@@ -48,6 +50,7 @@ header{
     background-image: url(images/monitor-1307227_640.jpg);
      height: 18vh;  /* controla lo largo de la pagina */ 
     background-size: cover; /* acomada la imagen en la pantalla */
+    font-family: 'Titillium Web', sans-serif;
   
 }
 
@@ -85,9 +88,23 @@ footer{
     background-size: cover; /* acomada la imagen en la pantalla */ 
 }
 
-.menu{
-    text-decoration: none;
-    background: red;
-    
+.ppe{
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+    width: 75%;
+    float: left;
+    max-width : 1280px;
+    margin: auto;
 }
+
+.menu{
+    font-family: 'Titillium Web', sans-serif;
+    color: black;
+    background:#5DADE2;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+}
+    
 
