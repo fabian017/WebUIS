@@ -4,60 +4,123 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="galeria.css">
     <title>Galeria</title>
+    
 </head>
 <body>
+    
+    <header>
+       <div class="titular">   
+        <h1>Galeria De Lenguajes</h1>
+        
+    </div> 
+    </header>
   
     <section id="galeria">
     <div class="foto">
-        <img class="img-hover" src="images/c#.png">
+        <img class="img-hover" src="images/c-programming-569564.png">
         <div class="oculto">
-            <h4>Clase 1</h4>
+            <a href="https://es.wikipedia.org/wiki/C_(lenguaje_de_programaci%C3%B3n)">C</a>
         </div>
     </div>
     <div class="foto">
         <img class="img-hover" src="images/java.png">
         <div class="oculto">
-            <h4>Clase 2</h4>
+            <a href="https://es.wikipedia.org/wiki/Java_(lenguaje_de_programaci%C3%B3n)">Java</a>
         </div>
     </div>
     <div class="foto">
         <img class="img-hover" src="images/c-plus-plus-logo.png">
         <div class="oculto">
-            <h4>Clase 3</h4>
+            <a href="https://es.wikipedia.org/wiki/C%2B%2B">C++</a>
         </div>
     </div>
     <div class="foto">
         <img class="img-hover" src="images/php-512.png">
         <div class="oculto">
-            <h4>Clase 4</h4>
+             <a href="https://es.wikipedia.org/wiki/PHP">PHP</a>
         </div>
     </div>
     <div class="foto">
         <img class="img-hover" src="images/ruby.png">
         <div class="oculto">
-            <h4>Clase 5</h4>
+            <a href="https://es.wikipedia.org/wiki/Ruby">Ruby</a>
         </div>
     </div>
     <div class="foto">
         <img class="img-hover" src="images/switch.png">
         <div class="oculto">
-            <h4>Clase 6</h4>
+           <a href="https://es.wikipedia.org/wiki/Swift_(lenguaje_de_programaci%C3%B3n)">Swift</a>
         </div>
     </div>
     <div class="foto">
         <img class="img-hover" src="images/SQL.png">
         <div class="oculto">
-            <h4>Clase 7</h4>
+            <a href="https://es.wikipedia.org/wiki/SQL">SQL</a>
         </div>
     </div>
     <div class="foto">
         <img class="img-hover" src="images/visual-basic.png">
         <div class="oculto">
-            <h4>Clase 8</h4>
+            <a href="https://es.wikipedia.org/wiki/Visual_Basic">Visual Basic</a>
+        </div>
+    </div>
+         <div class="foto">
+        <img class="img-hover" src="images/javasrcipt.png">
+        <div class="oculto">
+            <a href="https://es.wikipedia.org/wiki/JavaScript">JavaScript</a>
+        </div>
+    </div>
+    <div class="foto">
+        <img class="img-hover" src="images/NET_Logo.svg">
+        <div class="oculto">
+            <a href="https://es.wikipedia.org/wiki/Microsoft_.NET">.NET</a>
+        </div>
+    </div>
+    <div class="foto">
+        <img class="img-hover" src="images/elotroc.png">
+        <div class="oculto">
+            <a href="https://es.wikipedia.org/wiki/C_Sharp">C#</a>
+        </div>
+    </div>
+    <div class="foto">
+        <img class="img-hover" src="images/phyton.png">
+        <div class="oculto">
+            <a href="https://es.wikipedia.org/wiki/Python">Python</a>
         </div>
     </div>
 </section>  
     
+    
+    <footer>
+    <div class="pp">   
+        <a href="menu.html" class="menu">MENU</a>     
+    </div> 
+    </footer>
+    
+    
+<!-- poner el jqery -->
+<script 
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
+    
+<!-- info de todas las targetas -->    
+<script>
+
+ $(document).ready(function(){  //se crea la funcion principal
+     
+  $('.foto').hover(function(){ //funcion que va flotar la imagen
+      $(this).find('.oculto').fadeIn();// para que se muestre cuando se pasa el mouse
+    $(this).find('.img-hover').addClass('agrandar'); // que la imagen se agrande esto va de la mano con overflow:hidden
+  }, function(){
+      $(this).find('.oculto').fadeOut(); // para que se quite cuando se retira el mouse
+      $(this).find('.img-hover').removeClass('agrandar');//para que la imagen vaya a su estado normal cuando se quite el mouse
+  })   
+     
+ })  
+
+</script>    
 </body>
 </html>

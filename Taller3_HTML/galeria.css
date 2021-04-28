@@ -1,0 +1,93 @@
+/* galeria imagenes */
+
+
+#galeria {      
+    display:flex;  /* para que se ponga las fotos una del lado de la otra*/
+    flex-wrap: wrap; /*para que baje cuando ya no hay campos */
+    
+}
+
+#galeria img{
+    width: 100%; /*para que las imagenes ocupen todo el largo */
+    
+}
+
+ .foto{
+    width: 25%;     /* lo que la imagen va ocupar en el ancho */
+    position: relative;   /* va de la mano con el absolute */ 
+     overflow: hidden; /* efecto de agranda la imagen no se vea feo */
+}
+
+.oculto{
+    position: absolute;   /* para que el texto se ubique dentro de la pagina */
+    top: 0;            /* ubicar el texto dentro de la imagen*/
+    left: 0;            
+    background: #00000070;  /*color del fondo */
+    width: 100%;          /*que ocupe todo */
+    height: 100%;          /* que ocupe todo */
+    color:white;
+    text-align: center;
+    display: none;     /* para que no se vea */
+}
+
+.oculto a {
+    top: 40%;
+    position: relative;/* acomdar el texto */
+    color:white;
+    text-decoration: none;
+    font-size: 40px;
+}
+
+.agrandar{
+    transform: scale(1.2,1.2); /* un elemento escale */
+    transition: 0.2s;
+}
+
+
+header{
+    background-image: url(images/monitor-1307227_640.jpg);
+     height: 18vh;  /* controla lo largo de la pagina */ 
+    background-size: cover; /* acomada la imagen en la pantalla */
+  
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+
+.titular{               /* contiene el h1 y el boton */
+    text-align: center;
+    color:white;
+}
+
+.titular h1{                      /* titulo */
+    font-size: 80px;
+    font-style: italic;
+    width: 80%;            /*ancho que va ocupar */
+    margin: auto;
+    margin-bottom: 20px;
+
+}
+
+
+section{
+      background-image: url(images/background-2076334_1280.jpg);
+     height: 160vh;  /* controla lo largo de la pagina */ 
+    background-size: cover; /* acomada la imagen en la pantalla */
+}
+
+footer{
+    
+    background-image: url(images/monitor-1307227_640.jpg);
+     height: 18vh;  /* controla lo largo de la pagina */ 
+    background-size: cover; /* acomada la imagen en la pantalla */ 
+}
+
+.menu{
+    text-decoration: none;
+    background: red;
+    
+}
+
