@@ -1,0 +1,94 @@
+body{
+    background-color: #D0FAFA ;
+    font-family: 'Titillium Web', sans-serif;
+    color: #000000;
+}
+
+header{
+    text-align: center;
+    font-size: 30px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cuadro{
+
+     padding: 10px;
+    background: #E6F9FF;
+    border-radius: 20px;
+    margin-bottom: 10px;
+     border-style: solid;
+     
+}
+
+.frases{   /* controla la primera parte de la pagina */
+    width: 90%;
+    max-width : 1280px;
+    margin: auto;
+}
+
+.nombre{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+}
+.cuadro_frases{
+    margin-top: 10vh;
+    color: black;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    width: 25%;
+    max-width : 1280px;
+    margin: auto;
+}
+.frase1 {   /* colocar texto en columna izq */
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    width: 45%;
+    float: left;
+    max-width : 1280px;
+    margin: auto;
+}
+
+.frase2 {   /* colocar texto en columna der */
+    float: right;
+    width: 45%;
+    display: flex;
+}
+.logouis{
+    height: 100px;
+    width: 180px;
+    margin: 25px;
+}
+
+.botones{
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+    width: 100%;
+    float: left;
+    max-width : 1280px;
+    margin: auto;
+}
+
+.lleno{
+
+     padding: 10px;
+    background: #E6F9FF;
+    border-radius: 20px;
+    margin-bottom: 10px;
+     border-style: solid;
+}
+
+.enviar{
+    font-family: 'Titillium Web', sans-serif;
+    color: black;
+    background:#5DADE2;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+}

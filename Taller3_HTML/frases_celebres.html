@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frases</title>
+    <link rel="stylesheet" href="frases.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <header class="titulo">
+        <h2>Frases Celebres de autor</h2>
+        <img src="images/UIS-logo1.png" class="logouis">
+    </header>
+
+    <div class="frases">
+        <div class="nombre">
+        <label>Nombre de Usuario </label>
+        <input class="cuadro" type="text" placeholder="Escriba su nombre" required>
+        <br>
+        </div>
+        <fieldset class="cuadros_frases">
+            <legend>Marque su frase principal</legend>
+            <div class="frase1">
+                <label>Frase 1</label>
+                <input type="radio">
+                <br>
+                <textarea class="lleno" name="frase_1" cols="30" rows="10" placeholder="Frase 1"></textarea>
+            </div>
+            <div class="frase2">
+            <label>Frase 2</label>
+            <input type="radio">
+            <br>
+            <textarea  class="lleno" name="frase_2" cols="30" rows="10" placeholder="Frase 2"></textarea>
+            </div>
+        </fieldset>
+    <br>
+    </div>
+    <div class="botones"> 
+    <input class="enviar" type="submit" name="button" id="button_enviar" value="Enviar"
+      onclick="location.href = 'menu.html' ">
+    <input class="enviar" type="submit" name="button" id="button_enviar" value="Email"
+        onclick="location.href = 'mailto:fabian.jovalle@gmail.com' ">
+    </div>
+
+    
+</body>
+</html>

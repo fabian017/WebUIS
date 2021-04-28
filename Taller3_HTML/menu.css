@@ -1,0 +1,33 @@
+body{
+    background-color: #AED6F1;
+    max-width : 1280px;
+    margin: auto;
+    display: flex;
+    align-content: center;
+}
+nav{
+    font-family: 'Titillium Web', sans-serif;
+    width: 25%;
+    max-width : 1280px;
+    margin: auto;
+    border-style: solid;
+    background-color:  #5DADE2;
+    flex-direction: column;
+    margin-top: 20vh;
+    
+}
+.menu{
+    font-family: 'Titillium Web', sans-serif;
+    background-color:  #5DADE2;
+    background-size: auto; /* acomada el fondo en la pantalla */
+    text-align: center;
+    border-bottom: solid;
+}
+
+
+
+.color1 {color: #00000f;}
+.color2 {color: #002f4b;}
+.color3 {color: #006495;}
+.color4 {color: #00a3e9;}
+.color5 {color: #00ebff;}
