@@ -26,3 +26,7 @@ nav{
     border-color: rgb(14, 81, 204);
 }
 
+a{
+    color: red;
+    text-decoration: none;
+}

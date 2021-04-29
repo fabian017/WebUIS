@@ -99,8 +99,35 @@ fieldset{
     background:#5DADE2;
     border-style: solid;
     border-width: 1px;
+    border-width: 5px;
     border-color: rgb(14, 81, 204);
     border-radius: 20px;
     max-width : 1280px;
     font-size: 20px;
+    padding: 15px;
 }
+
+.ppe{
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+    width: 75%;
+    float: left;
+    max-width : 1280px;
+    margin: auto;
+    position: absolute;
+}
+
+.menu{
+    font-family: 'Titillium Web', sans-serif;
+    color: black;
+    background:#5DADE2;
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
+    padding: 20px;
+    position: relative;
+    margin-top: 25px;
+    text-decoration: none;
+}
+    
