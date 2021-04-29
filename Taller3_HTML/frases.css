@@ -19,6 +19,7 @@ header{
     border-radius: 20px;
     margin-bottom: 10px;
      border-style: solid;
+     border-color:rgb(14, 81, 204);
      
 }
 
@@ -82,6 +83,14 @@ header{
     border-radius: 20px;
     margin-bottom: 10px;
      border-style: solid;
+     border-color: rgb(14, 81, 204);
+}
+
+fieldset{
+    border-radius: 20px;
+    margin-bottom: 10px;
+     border-style: solid;
+     border-color:rgb(14, 81, 204);
 }
 
 .enviar{
@@ -90,5 +99,8 @@ header{
     background:#5DADE2;
     border-style: solid;
     border-width: 1px;
-    border-color: black;
+    border-color: rgb(14, 81, 204);
+    border-radius: 20px;
+    max-width : 1280px;
+    font-size: 20px;
 }

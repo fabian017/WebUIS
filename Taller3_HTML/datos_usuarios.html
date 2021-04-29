@@ -21,14 +21,15 @@
         </header>
         <div class="contenedor">
             <div class="datos">
-        <label>Nombre:  </label> <input type="text" placeholder="Escriba su nombre" required> 
-        <br>
-        <label>Apellidos:  </label><input type="text" placeholder="Escriba su apellido" required>
-        <br>
-        <label>Contraseña:  </label><input type="password" placeholder="Digite una contraseña" required>
-        <br>
-        <label>Confirmar contraseña:</label><input type="password" placeholder="Confirme su contraseña" required>
-        </div>
+                <label>Nombre:  </label> <input type="text" placeholder="Escriba su nombre" required> 
+                <br>
+                <label>Apellidos:  </label><input type="text" placeholder="Escriba su apellido" required>
+            </div>
+            <div class="contra">
+                <label>Contraseña:  </label><input type="password" placeholder="Digite una contraseña" required>
+                <br>
+                <label>Confirmar contraseña:</label><input type="password" placeholder="Confirme su contraseña" required>
+            </div>
         </div>
         <div class="identi">
         <label>Identificacion</label>
@@ -90,15 +91,15 @@
             </select>
         </div>
             <label>Edad: </label><input  required type="number" placeholder=" Escribe tu edad"><br>
-            <label> Fecha de Nacimiento</label><input required type="date" placeholder=" Dia de Nacimiento">
+            <label> Fecha de Nacimiento: </label><input required type="date" placeholder=" Dia de Nacimiento">
             <br>
             <label>Temas de interes</label><br>
-            <textarea name="Temas de interes" cols="30" rows="10" placeholder="Bases de datos, Arquitectura Web, Analisis y programacion, Calidad "></textarea> 
+            <textarea name="Temas de interes: " cols="30" rows="10" placeholder="Bases de datos, Arquitectura Web, Analisis y programacion, Calidad "></textarea> 
         </fieldset>
-
-        <input type="submit" value="Guardar cambios">
-        <input type="submit" value="Borrar datos introducidos">
-
+        <div class="botones">
+            <input  class="final" type="submit" value="Guardar cambios">
+            <input class="final" type="submit" value="Borrar datos introducidos">
+        </div>
         <br>
     </form>
 </body>

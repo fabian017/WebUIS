@@ -22,7 +22,7 @@ h2 {
     width: 180px;
     margin: 25px;
 }
-.encabezado{
+body{
         background-image: url(images/background-2076334_1280.jpg);
      height: 30vh;  /* controla lo largo de la pagina */ 
     background-size: cover; /* acomada la imagen en la pantalla */
@@ -35,26 +35,92 @@ body{
 
 
 .contenedor{
-   width: 90%;
-    max-width : 1280px;
+    max-width : 55%;
     margin: auto;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
 }
 
 
 .datos{
     flex-direction:row;
     margin-top: 10vh;
+    width:max-content;
     color: black;
     display: flex;
     align-content: center;
     align-items: center;
     justify-content: space-between;
-       
-    
+}
+.contra{
+    color: black;
+    width:max-content;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
 }
 
+input{
+     padding: 10px;
+    background: #E6F9FF;
+    border-radius: 20px;
+    margin-bottom: 10px;
+     border-style: solid;
+     border-color: rgb(14, 81, 204);
+}
 
 .identi{
     margin-top: 20px;
     
+}
+
+fieldset{
+    border-radius: 20px;
+    margin-bottom: 10px;
+     border-style: solid;
+     border-color:rgb(14, 81, 204);
+}
+.botones{
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+    width: 100%;
+    float: left;
+    max-width : 1280px;
+    margin: auto;
+}
+
+select{
+     padding: 10px;
+    background: #E6F9FF;
+    border-radius: 20px;
+    margin-bottom: 10px;
+     border-style: solid;
+     border-color: rgb(14, 81, 204);
+    text-align-last: center;  
+}
+textarea{
+    padding: 10px;
+    background: #E6F9FF;
+    border-radius: 20px;
+    margin-bottom: 10px;
+     border-style: solid;
+     border-color: rgb(14, 81, 204);
+    text-align-last: center; 
+}
+
+.final{
+    font-family: 'Titillium Web', sans-serif;
+
+    color: black;
+    background:#5DADE2;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(14, 81, 204);
+    border-radius: 20px;
+    max-width : 1280px;
+    width: 15%;
+    font-size: 80%;
 }
