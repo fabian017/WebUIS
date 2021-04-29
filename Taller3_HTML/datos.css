@@ -26,6 +26,7 @@ body{
         background-image: url(images/background-2076334_1280.jpg);
      height: 30vh;  /* controla lo largo de la pagina */ 
     background-size: cover; /* acomada la imagen en la pantalla */
+    font-family: 'Titillium Web', sans-serif;
 }
 body{
     margin: 0;
@@ -35,11 +36,12 @@ body{
 
 
 .contenedor{
-    max-width : 55%;
     margin: auto;
     flex-direction: column;
     align-items: center;
     align-content: center;
+    display: flex;
+    justify-content: space-between;
 }
 
 
@@ -51,10 +53,12 @@ body{
     display: flex;
     align-content: center;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    text-align-last: center; 
 }
 .contra{
     color: black;
+    flex-direction: column;
     width:max-content;
     display: flex;
     align-content: center;
@@ -69,6 +73,7 @@ input{
     margin-bottom: 10px;
      border-style: solid;
      border-color: rgb(14, 81, 204);
+     text-align-last: center; 
 }
 
 .identi{
