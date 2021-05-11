@@ -1,0 +1,72 @@
+header{
+    background-image: url(images/knowledge-3914811_1280.jpg);
+     height: 80vh;  
+    background-size: cover; /
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+table{
+    text-align: center;
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
+    margin-bottom: 30px;
+}
+
+.contenedor{
+   margin-top: 50px;
+    justify-content: center;
+    display: flex;
+}
+
+th , tr , td{
+    text-align: center;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #295bcc;
+}
+
+h2{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: -30px;
+  
+}
+
+
+
+footer{
+    
+    background-image: url(images/monitor-1307227_640.jpg);
+     height: 18vh;  /* controla lo largo de la pagina */ 
+    background-size: cover; /* acomada la imagen en la pantalla */ 
+}
+
+.ppe{
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+    width: 75%;
+    float: left;
+    max-width : 1280px;
+    margin: auto;
+    position: absolute;
+}
+
+.menu{
+    font-family: 'Titillium Web', sans-serif;
+    color: black;
+    background:#5DADE2;
+    border-style: solid;
+    border-width: 5px;
+    border-color: white;
+    padding: 20px;
+    position: relative;
+    margin-top: 25px;
+    text-decoration: none;
+}
+
