@@ -15,7 +15,7 @@ body{
 }
 
  .foto{
-    width: 25%;     /* lo que la imagen va ocupar en el ancho */
+    width: 25%;     /* espacio que la imagen va ocupar en el ancho */
     position: relative;   /* va de la mano con el absolute */ 
      overflow: hidden; /* efecto de agranda la imagen no se vea feo */
 }
