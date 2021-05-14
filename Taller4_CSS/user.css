@@ -1,9 +1,6 @@
 body{
     background-color: #AC75F2;
     font-family: 'Ubuntu', sans-serif;
-    flex-direction: column;
-    display: flex;
-    align-items: center;
 }
 
 h1{
@@ -16,6 +13,7 @@ h1{
     margin: auto;
     border: solid;
     border-color: #6608DD;
+    margin-top: 20vh;
 }
 
 input, select{
@@ -30,4 +28,19 @@ input, select{
     text-align: center;
     margin: 10px;
     justify-content: space-evenly;
+}
+
+.ppe{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.ppe a{
+    padding: 15px 25px;
+    text-decoration: none;
+    color: bisque;
+    border: solid;
+    border-color: #D4C1ED;
+    background-color: #6608DD;
 }
