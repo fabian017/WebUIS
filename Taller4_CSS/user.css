@@ -1,0 +1,33 @@
+body{
+    background-color: #AC75F2;
+    font-family: 'Ubuntu', sans-serif;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+
+h1{
+    text-align: center;
+}
+
+.contenedor{
+    width:70%;
+    max-width: 1280px;
+    margin: auto;
+    border: solid;
+    border-color: #6608DD;
+}
+
+input, select{
+    background-color: #D4C1ED;
+    border-color: #6608DD;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+.renglon{
+    display: flex;
+    text-align: center;
+    margin: 10px;
+    justify-content: space-evenly;
+}
