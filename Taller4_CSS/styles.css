@@ -1,0 +1,80 @@
+body{
+    margin:  0;;
+    padding: 0;
+}
+
+
+section{
+    background-image: url(img/background-1747777_1280.jpg);
+     height: 100vh;  
+    background-size: cover; 
+}
+
+.titulo{
+ 
+    font-size: 50px;
+}
+
+.centar{
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+.contenedor{
+ width: 90%;
+    max-width : 1280px;
+    margin: auto;
+}
+
+.dos{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+   
+}
+
+img{
+    width: 100%;
+    height: 50%;
+}
+
+.persona{
+ width: 45%;
+border-style: solid;
+border-width: 5px;
+background: beige;
+
+
+}
+
+.carro{
+    width: 45%;
+    border-style: solid;
+border-width: 5px;
+background: beige;
+   
+}
+
+
+
+li{
+    list-style:  none;
+    text-align: center;
+    font-size: 30px;
+ 
+  
+}
+
+ul{
+    padding: 0;
+    margin-bottom: -250px;
+}
+
+a{
+    text-decoration: none;
+    color:blue;
+}
+
+
