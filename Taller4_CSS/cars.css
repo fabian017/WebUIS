@@ -8,7 +8,7 @@ h1{
     max-width: 1280px;
     margin: auto;
     border: solid;
-    border-color: #e8dafa;
+    border-color: white;
     border-width: 5px;
     margin-top: 7vh;
     background: #0b0b0b;
@@ -35,7 +35,7 @@ input[type=text] {
   padding: 12px 20px;
   margin: 8px 0;
   display: inline-block;
-  border: 1px solid #ccc;
+  border: 2px solid cyan;
   border-radius: 4px;
   box-sizing: border-box;
 }
@@ -46,7 +46,7 @@ input[type=number] {
   padding: 12px 20px;
   margin: 8px 0;
   display: inline-block;
-  border: 1px solid #ccc;
+  border: 2px solid cyan;
   border-radius: 4px;
   box-sizing: border-box;
 }
@@ -57,16 +57,12 @@ input[type=date] {
   padding: 12px 20px;
   margin: 8px 0;
   display: inline-block;
-  border: 1px solid #ccc;
+    border: 2px solid cyan;
   border-radius: 4px;
   box-sizing: border-box;
 }
 
 
-
-input[type=submit]:hover {
-  background-color: #45a049;
-}
 
 
 textarea {
@@ -74,7 +70,7 @@ textarea {
   height: 150px;
   padding: 12px 20px;
   box-sizing: border-box;
-  border: 2px solid #ccc;
+  border: 2px solid cyan;
   border-radius: 4px;
   background-color: #f8f8f8;
   font-size: 16px;
@@ -89,7 +85,7 @@ select {
   padding: 12px 20px;
   margin: 8px 0;
   display: inline-block;
-  border: 1px solid #ccc;
+  border: 2px solid cyan;
   border-radius: 4px;
   box-sizing: border-box;
 }
@@ -98,12 +94,58 @@ select {
 
 body{
     background-image: url(img/hong-kong-4103334_12802.jpg);
-          height: 355vh;  /* controla lo largo de la pagina */ 
+          height: 380vh;  /* controla lo largo de la pagina */ 
     background-size: cover; /* acomada la imagen en la pantalla */
+    font-family: 'Cardo', serif;
 }
 
 
 
 h1{
     color: aliceblue;
+}
+
+
+
+@media(max-width: 1000px){
+    .pregunta{
+        width: 85%;
+    }
+}
+
+@media(max-width: 800px){
+    .pregunta{
+        width: 80%;
+    }
+}
+
+@media(max-width: 600px){
+    .pregunta{
+        width: 75%;
+    }
+}
+
+
+
+.ppe{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.ppe a{
+    padding: 15px 25px;
+    text-decoration: none;
+    color: white;
+    border: solid;
+    border-color: white;
+    background-color: black;
+    border-width: 3px;
+}
+
+.ppe a:hover{
+    border-color: cyan;
+    color: black;
+    background-color: white;
 }
