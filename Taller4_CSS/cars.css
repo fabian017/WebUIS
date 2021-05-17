@@ -1,0 +1,46 @@
+h1{
+    text-align: center;
+}
+
+
+.formulario{
+        width:50%;
+    max-width: 1280px;
+    margin: auto;
+    border: solid;
+    border-color: #6608DD;
+    margin-top: 7vh;
+  
+}
+
+.pregunta{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+      align-items:center;
+}
+
+label{
+    margin-right: 10px;
+}
+
+
+input{
+    width: 100%;
+}
+
+input[type=text] {
+  width: 100%;
+  padding: 20px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+
+input[type=number] {
+  width: 100%;
+  padding: 20px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}

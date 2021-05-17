@@ -5,15 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registro de carros</title>
+       <link rel="stylesheet" href="cars.css">
 </head>
 <body>
-    <header>
-        <h1>REGISTRO DE CARROS</h1>
-    </header>
+   
+    <h1>REGISTRO DE CARROS</h1>
+    
+<section class="formulario">
 
     <form action="">
-        <div class="contenedor">
+        <div class="pregunta">
             <label>ID coche</label><input type="text" placeholder="Digite el ID del coche">
+            </div>
+            <div class="pregunta">
             <label>Tipo de combustible</label>
                 <select id="pa" name="pais" aria-placeholder="Elegir una opcion">
                     <option value="0" hidden selected>Elegir una opcion</option>
@@ -22,7 +26,8 @@
                     <option value="3">ACPM</option>
                     <option value="4">Diesel</option>
                 </select>
-
+                </div>
+                <div class="pregunta">
             <label>Tipo de coche</label>
                 <select id="pa" name="pais">
                     <option value="0" hidden selected>Elegir opción</option>
@@ -34,6 +39,8 @@
                     <option value="6">Coupé</option>
                     <option value="7">Jeepeta</option>
                 </select>
+                </div>
+                <div class="pregunta">
             <label>Estado</label>
                 <select id="pa" name="pais">
                     <option value="0" hidden selected>Elegir opción</option>
@@ -42,6 +49,8 @@
                     <option value="3">Falta reparación</option>
                     <option value="4">Perdida Total</option>
                 </select>
+                </div>
+                <div class="pregunta">
             <label>Marca</label>
                 <select id="pa" name="pais">
                     <option value="0" hidden selected>Elegir opción</option>
@@ -57,21 +66,42 @@
                     <option value="10">Toyota</option>
                     <option value="11">Lamborghini</option>
                 </select>
+                </div>
+            <div class="pregunta">  
             <label>Usuario</label><input type="text" placeholder="Digite el ID usuario">
+            </div> 
+            <div class="pregunta">   
             <label>Modelo</label><input type="number" placeholder="Modelo del coche">
+            </div> 
+             <div class="pregunta"> 
             <label>Año</label><input type="number" placeholder="Año">
+             </div> 
+             <div class="pregunta">
             <label>Detalle</label><input type="text" placeholder="Detalle">
+             </div> 
+             <div class="pregunta">
             <label>Caja</label><input type="number" placeholder="Caja">
+             </div> 
+             <div class="pregunta">
             <label>Motor</label><input type="number" placeholder="Motor">
+             </div> 
+             <div class="pregunta">
             <label>Fecha de publicacion</label><input type="date">
+             </div> 
+             <div class="pregunta">
             <label>Precio</label><input type="number" placeholder="Precio del coche">
+             </div> 
+             <div class="pregunta">
             <label>Moneda</label><input type="text" placeholder="Moneda">
+             </div> 
+             <div class="pregunta">
             <label>Descripcion</label>
                 <textarea name="d1" id="" cols="20" rows="5" maxlength="85"></textarea>
                 <textarea name="d1" id="" cols="20" rows="5" maxlength="85"></textarea>
                 <textarea name="d3" id="" cols="20" rows="5" maxlength="85"></textarea> 
-        
-            </div>
+             </div> 
+            
     </form>
+    </section>
 </body>
 </html>
