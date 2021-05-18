@@ -27,9 +27,6 @@ label{
     text-align: center;
 }
 
-
-
-
 input[type=text] {
   width: 100%;
   padding: 12px 20px;
@@ -94,7 +91,11 @@ select {
 
 body{
     background-image: url(img/hong-kong-4103334_12802.jpg);
+<<<<<<< HEAD
           height: 380vh;  /* controla lo largo de la pagina */ 
+=======
+    height: 355vh;  /* controla lo largo de la pagina */ 
+>>>>>>> main
     background-size: cover; /* acomada la imagen en la pantalla */
     font-family: 'Cardo', serif;
 }
@@ -108,6 +109,7 @@ h1{
 
 
 @media(max-width: 1000px){
+<<<<<<< HEAD
     .pregunta{
         width: 85%;
     }
@@ -148,4 +150,12 @@ h1{
     border-color: cyan;
     color: black;
     background-color: white;
+=======
+    .formulario{
+      width: 65%;
+    }
+    .pregunta{
+        width: 80%;
+    }
+>>>>>>> main
 }
