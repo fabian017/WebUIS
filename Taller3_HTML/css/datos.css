@@ -23,7 +23,7 @@ h2 {
     margin: 25px;
 }
 body{
-        background-image: url(images/background-2076334_1280.jpg);
+        background-image: url(/images/background-2076334_1280.jpg);
      height: 30vh;  /* controla lo largo de la pagina */ 
     background-size: cover; /* acomada la imagen en la pantalla */
     font-family: 'Titillium Web', sans-serif;

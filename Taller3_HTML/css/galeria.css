@@ -47,7 +47,7 @@ body{
 
 
 header{
-    background-image: url(images/monitor-1307227_640.jpg);
+    background-image: url(/images/monitor-1307227_640.jpg);
      height: 18vh;  /* controla lo largo de la pagina */ 
     background-size: cover; /* acomada la imagen en la pantalla */
     font-family: 'Titillium Web', sans-serif;
@@ -76,14 +76,14 @@ body{
 
 
 section{
-      background-image: url(images/background-2076334_1280.jpg);
+      background-image: url(/images/background-2076334_1280.jpg);
      height: 160vh;  /* controla lo largo de la pagina */ 
     background-size: cover; /* acomada la imagen en la pantalla */
 }
 
 footer{
     
-    background-image: url(images/monitor-1307227_640.jpg);
+    background-image: url(/images/monitor-1307227_640.jpg);
      height: 18vh;  /* controla lo largo de la pagina */ 
     background-size: cover; /* acomada la imagen en la pantalla */ 
 }
