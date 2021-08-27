@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@300&display=swap" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+    <script>$(function() {
+  $('select').formSelect();
+});
+
+$('#prim').change(function()
+{ 
+    for (i = 0; i < 10; i++)
+    { 
+        $('#seg').append($('<option>',
+        {
+            value: i,
+            text : "Option "+i 
+        }));
+    }
+    $('#seg').formSelect();
+});</script>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" rel="stylesheet" />
+    <title>Document</title>
+</head>
+<body style="color:black; font-family: 'IBM Plex Sans Thai', sans-serif;
+background: radial-gradient(circle, blue, #22c1c3); ;">
+    <div class="container col s4">
+        <div class="mb-8">
+            <h2 class="text-center p-3">Registro de Usuario</h2>
+        </div>
+        <form action="index.html" class="red-text text-darken-2">
+          
+    <div class="row">
+    <div class="col s12">
+      <div class="row">
+        <div class="input-field col s12">
+          <input type="text" id="autocomplete-input" class="autocomplete">
+          <label for="autocomplete-input">Digite el ID</label>
+        </div>
+      </div>
+    </div>
+  </div>
+        
+      <div class="input-field col s12">
+    <select>
+    <option>Elegir una opcion</option>
+        <option value="1">Corriente</option>
+        <option value="2">Extra</option>
+        <option value="3">ACPM</option>
+        <option value="4">Diesel</option>
+    </select>
+    <label>Tipo De combustible</label>
+  </div>
+        
+        
+      <div class="input-field col s12">
+    <select>
+        <option>Elegir una opcion</option>
+         <option value="1">Urbano</option>
+         <option value="2">Familiar</option>
+         <option value="3">Sedán</option>
+         <option value="4">Berlina</option>
+         <option value="5">Descapotable</option>
+         <option value="6">Coupé</option>
+         <option value="7">Jeepeta</option>
+    </select>
+    <label>Tipo de vehiculo</label>
+  </div>
+       
+    
+          <div class="input-field col s12">
+    <select>
+       <option>Elegir una opcion</option>
+        <option value="1">Perfectas condiciones</option>
+         <option value="2">Buen estado</option>
+        <option value="3">Falta reparación</option>
+        <option value="4">Perdida Total</option>
+    </select>
+    <label>Estado del vehiculo</label>
+  </div>   
+        
+           
+              <div class="input-field col s12">
+    <select>
+          <option>Elegir una opcion</option>
+        <option value="1">Kia</option>
+        <option value="2">Mazda</option>
+        <option value="3">Audi</option>
+        <option value="4">BMW</option>
+        <option value="5">Nissan</option>
+        <option value="6">Chevrolet</option>
+        <option value="7">Renault</option>
+        <option value="8">Ferrari</option>
+        <option value="9">Ford</option>
+        <option value="10">Toyota</option>
+        <option value="11">Lamborghini</option>
+    </select>
+    <label>Marca</label>
+  </div>          
+           
+       <div class="row">
+    <div class="col s12">
+      <div class="row">
+        <div class="input-field col s12">
+          <input type="text" id="autocomplete-input" class="autocomplete">
+          <label for="autocomplete-input">Usuario</label>
+        </div>
+      </div>
+    </div>
+  </div>
+                      <div class="row">
+    <div class="col s12">
+      <div class="row">
+        <div class="input-field col s12">
+          <input type="text" id="autocomplete-input" class="autocomplete">
+          <label for="autocomplete-input">Modelo</label>
+        </div>
+      </div>
+    </div>
+  </div>
+                      <div class="row">
+    <div class="col s12">
+      <div class="row">
+        <div class="input-field col s12">
+          <input type="text" id="autocomplete-input" class="autocomplete">
+          <label for="autocomplete-input">Año</label>
+        </div>
+      </div>
+    </div>
+  </div>
+                      <div class="row">
+    <div class="col s12">
+      <div class="row">
+        <div class="input-field col s12">
+          <input type="text" id="autocomplete-input" class="autocomplete">
+          <label for="autocomplete-input">Detalle</label>
+        </div>
+      </div>
+    </div>
+  </div>
+                      <div class="row">
+    <div class="col s12">
+      <div class="row">
+        <div class="input-field col s12">
+          <input type="text" id="autocomplete-input" class="autocomplete">
+          <label for="autocomplete-input">Caja</label>
+        </div>
+      </div>
+    </div>
+  </div>
+                      <div class="row">
+    <div class="col s12">
+      <div class="row">
+        <div class="input-field col s12">
+          <input type="text" id="autocomplete-input" class="autocomplete">
+          <label for="autocomplete-input">Motor</label>
+        </div>
+      </div>
+    </div>
+  </div>
+                      <div class="row">
+    <div class="col s12">
+      <div class="row">
+        <div class="input-field col s12">
+          <input type="text" id="autocomplete-input" class="autocomplete">
+          <label for="autocomplete-input">Fecha de publiacion</label>
+        </div>
+      </div>
+    </div>
+  </div>
+                      <div class="row">
+    <div class="col s12">
+      <div class="row">
+        <div class="input-field col s12">
+          <input type="text" id="autocomplete-input" class="autocomplete">
+          <label for="autocomplete-input">Precio</label>
+        </div>
+      </div>
+    </div>
+  </div>
+                      <div class="row">
+    <div class="col s12">
+      <div class="row">
+        <div class="input-field col s12">
+          <input type="text" id="autocomplete-input" class="autocomplete">
+          <label for="autocomplete-input">Moneda</label>
+        </div>
+      </div>
+    </div>
+  </div>    
+                   
+      <div class="row">
+    <form class="col s12">
+      <div class="row">
+        <div class="input-field col s12">
+          <textarea id="textarea1" class="materialize-textarea"></textarea>
+          <label for="textarea1">Comment:</label>
+        </div>
+      </div>
+    </form>
+  </div>
+                   
+   <div class="row">
+    <form class="col s12">
+      <div class="row">
+        <div class="input-field col s12">
+          <textarea id="textarea1" class="materialize-textarea"></textarea>
+          <label for="textarea1">Comment:</label>
+        </div>
+      </div>
+    </form>
+  </div>
+
+    <div class="row">
+    <form class="col s12">
+      <div class="row">
+        <div class="input-field col s12">
+          <textarea id="textarea1" class="materialize-textarea"></textarea>
+          <label for="textarea1">Comment:</label>
+        </div>
+      </div>
+    </form>
+  </div>   
+                                                                                                                                                                                                                                                      
+   <div class="center-align">
+                <button type="submit" class="btn waves-effect waves-light black pulse">Registrar</button>
+            </div>   
+          <div class="row">
+
+            </div>                   
+
+        </form>
+    </div>
+    <script>
+  document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('select');
+    var instances = M.FormSelect.init(elems, options);
+  });
+
+  // Or with jQuery
+
+  $(document).ready(function(){
+    $('select').formSelect();
+  });
+            
+        </script>
+</body>
+</html>
