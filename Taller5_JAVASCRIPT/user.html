@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@300&display=swap" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+    <script>$(function () {
+            $('select').formSelect();
+        });
+
+        $('#prim').change(function () {
+            for (i = 0; i < 10; i++) {
+                $('#seg').append($('<option>',
+                    {
+                        value: i,
+                        text: "Option " + i
+                    }));
+            }
+            $('#seg').formSelect();
+        });</script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" rel="stylesheet" />
+    <title>Document</title>
+</head>
+
+<body style="color:black; font-family: 'IBM Plex Sans Thai', sans-serif;
+background: radial-gradient(circle, blue, #22c1c3); ;">
+    <div class="container col s4" style="color:black">
+        <div class="mb-8">
+            <h2 class="text-center p-3">Registro de Usuario</h2>
+        </div>
+        <form action="index.html" class="red-text text-darken-2">
+            <div class="row">
+                <div class="input-field col s6">
+                    <select name="tipoId" class="form-control" placeholder="Tipo ID" required>
+                        <option value="Elegir" hidden selected>Elegir opción</option>
+                        <option value="CC">CC</option>
+                        <option value="TI">TI</option>
+                        <option value="CE">CE</option>
+                    </select>
+                    <label for="floatingSelect">Tipo ID</label>
+                </div>
+                <div class="input-field col s6">
+                    <input type="text" class="form-control  " id="floatingInput" placeholder="ID" required>
+                    <label for="floatingInput">ID</label>
+                </div>
+             
+            </div>
+            <div class="row">
+                <div class="input-field col s6">
+                    <input type="text" class="form-control" id="nombre" placeholder="Nombre" required>
+                    <label for="floatingInput">Nombre</label>
+                </div>
+                <div class="input-field col s6">
+                    <input type="text" class="form-control border-danger" id="apellido" placeholder="Apellido"
+                        required>
+                    <label for="floatingInput">Apellido</label>
+                </div>
+            </div>
+ 
+
+        <div class="row">
+            <div class="input-field col s6">
+                <input type="text" class="form-control border-danger" id="direccion" placeholder="Direccion"
+                    required>
+                <label for="floatingInput">Direccion</label>
+            </div>
+            <div class="input-field col s6">
+                <input type="text" class="form-control border-danger" id="usuario" placeholder="Codigo"
+                    required>
+                <label for="floatingInput">Codigo</label>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="input-field col s6">
+                <input type="password" class="form-control border-danger" id="contraseña" placeholder="Contraseña"
+                    required>
+                <label for="floatingPassword">Contraseña</label>
+            </div>
+            <div class="input-field col s6">
+                <input type="password" class="form-control border-danger" id="contraseña"
+                    placeholder="Confirmar Contraseña" required>
+                <label for="floatingPassword">Confirmar Contraseña</label>
+            </div>
+        </div>
+        <div class="row">
+            <div class="input-field col s6 blue-text text-darken-2">
+                <input type="text" class="form-control blue-text text-darken-2" placeholder="Email" id="correo" required>
+                <label for="floatingEmail" >Email</label>
+            </div>
+            <div class="input-field col s6">
+                <input type="text" class="form-control blue-text text-darken-2" id="telefono"
+                    placeholder="Numero" required>
+                <label for="floatingInput">Telefono</label>
+            </div>
+        </div>
+
+    
+        <div class="center-align">
+            <button type="submit" class="btn waves-effect waves-light black pulse">Registrar</button>
+        </div>
+        <div class="row">
+
+        </div>
+        </form>
+        </div>
+        <script>
+            document.addEventListener('DOMContentLoaded', function () {
+                var elems = document.querySelectorAll('select');
+                var instances = M.FormSelect.init(elems, options);
+            });
+
+            // Or with jQuery
+
+            $(document).ready(function () {
+                $('select').formSelect();
+            });
+        </script>
+        <script src="validacion.js"></script>
+</body>
+
+</html>
