@@ -14,7 +14,7 @@ align-content: center;
 }
 
 .card{
-height: 370px;
+height: 280px;
 margin-top: auto;
 margin-bottom: auto;
 width: 400px;
@@ -27,10 +27,15 @@ margin-left: 10px;
 color: #FFC312;
 }
 
+img{
+    width: 150px;
+}
+
 .social_icon span:hover{
 color: white;
 cursor: pointer;
 }
+
 
 .card-header h3{
 color: white;
@@ -40,6 +45,27 @@ color: white;
 position: absolute;
 right: 20px;
 top: -45px;
+}
+
+
+
+.card-body p{
+    font-weight: 800;
+    background-color: #299c00;
+    padding: 10px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+p:hover{
+    background-color: blue;
+}
+
+.card-body{
+    align-items: center;
+    justify-content: center;
 }
 
 .input-group-prepend span{
