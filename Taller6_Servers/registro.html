@@ -1,0 +1,134 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Img/GUis.jpeg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <style type="text/css">
+        #oculto{
+          display: none;
+        }
+        </style>
+        <script src="codigo.js"></script>
+</head>
+<body class=" lighten-2" >
+    
+   
+      
+      <div class="container ">
+          <div class="section z-depth-5   white">
+            <h5> Registro de Usuarios</h5>
+            <div class="section container">
+          <div class="row">
+          <form class="col s12" onsubmit="return codigo();">
+            <div class="row">
+                <div class="input-field col s6 ">
+                    <i class="material-icons prefix ">face</i>
+                    <input id="nombre" type="text" class="validate ">
+                    <label for="Nombre">Nombre</label>
+                  </div>
+                  <div class="input-field col s6">
+                    <i class="material-icons prefix ">face</i>
+                    <input id="apellido" type="text" class="validate ">
+                    <label for="Apellido">Apellido</label>
+                  </div>
+                  <div class="input-field col s12">
+                    <i class="material-icons prefix ">directions</i>
+                    <input type="text" class="datepicker">
+                    <label for="icon_prefix">Fecha de nacimiento</label>
+
+                    
+                  </div>
+                  <div class="input-field col s6">
+                    <i class="material-icons prefix ">account_circle</i>
+                    <input id="usuario" type="text" class="validate" onkeyup="this.value=Numeros(this.value)">
+                    <label for="icon_prefix">Usuario</label>
+                  </div>
+                  <div class="input-field col s6">
+                    <i class="material-icons prefix ">https</i>
+                    <input id="pass" type="password" class="validate">
+                    <label for="icon_prefix">Contraseña</label>
+                  </div>
+                  <div class="input-field col s6">
+                    <i class="material-icons prefix ">https</i>
+                    <input id="pass2" type="password" class="validate">
+                    <label for="icon_prefix">Confirmar contraseña</label>
+                  </div>
+                  <div class="input-field col s6">
+                    <i class="material-icons prefix ">email</i>
+                    <input id="correo" type="email" class="validate">
+                    <label for="icon_prefix">Correo</label>
+                  </div>
+
+                  <div class="section s5">
+                     <span>¿Has sufrido alguna enfermedad?</span>
+                     <p>
+                        <label>
+                          <input name="group1" type="radio" onclick="mostrar();" checked />
+                          <span>Si</span>
+                        </label>
+                      </p>
+                      <p>
+                        <label>
+                          <input name="group1" type="radio" />
+                          <span>No</span>
+                        </label>
+                      </p>
+                  </div>
+                  <div class="input-field col s12" id="oculto">
+                    <i class="material-icons prefix "></i>
+                    <input id="Cual" type="text" class="validate">
+                    <label for="Cual">Cuales?</label>
+                  </div>
+            </div>
+
+
+
+            <div class="center-align">
+                <button class="btn waves-effect waves-light " type="submit" name="action">Submit
+                <i class="material-icons right">send</i>
+                  </button>
+            </div>
+          </form>
+        </div></div></div>
+    </div>
+
+      
+  
+      <script>
+        document.addEventListener('DOMContentLoaded', function() {
+        var elems = document.querySelectorAll('.parallax');
+        var instances = M.Parallax.init(elems);});
+      
+       
+         </script>
+   <script>
+        document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.datepicker');
+    var instances = M.Datepicker.init(elems);
+  });
+   </script>
+       <!-- Compiled and minified JavaScript -->
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>   
+
+       <script type="text/javascript">
+        function mostrar(){
+          document.getElementById('oculto').style.display= 'block';
+        }</script>
+        <script>
+            function Numeros(string){//Solo numeros
+            var out = '';
+            var filtro = 'abcdefghijklmnñopqrstuvwxyzABCDEFGHIJKLMNÑOPQRSTUVWXYZ1234567890';//Caracteres validos
+	         //Recorrer el texto y verificar si el caracter se encuentra en la lista de validos 
+            for (var i=0; i<string.length; i++)
+            if (filtro.indexOf(string.charAt(i)) != -1) 
+             //Se añaden a la salida los caracteres validos
+	        out += string.charAt(i);
+	        //Retornar valor filtrado
+            return out;} 
+        </script>
+        
+    </body>
+</html>
