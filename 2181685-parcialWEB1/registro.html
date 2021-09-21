@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fabian Registro</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+</head>
+<body class="cuerpo" onload="traerdatos()">
+    <div class="container text-center">
+        <div>
+            <div class="titulo">
+                <h1 class="mb-20 resultado">Resultado</h1>
+            </div>
+            <div class="justify-content-center alineacion">
+                <div class="card col-sm-5 text-center sombra">
+                    <div class="row portada secciones">
+                        <div class="col-4">
+                            <img src="img/sonrisa.png" alt="Sonrisa" class="m-3">
+                        </div>
+                        <div class="col-8 nombre">
+                            <h1 id="nombreregistro" class="nombreregistro"></h1>
+                            <h1 class="ficha">ficha</h1>
+                        </div>
+                    </div>
+                    <div class="datos row secciones text-center">
+                        <div class="izq col-6">
+                            <h3>Email</h3>
+                        </div>
+                        <div class="der col-6">
+                            <span id="emaildato" class="emaildato"></span>
+                        </div>
+                    </div>
+                    <div class="datos row text-center secciones">
+                        <div class="izq col-6">
+                            <h3>Telefono</h3>
+                        </div>
+                        <div class="der col-6">
+                            <span id="telefonodato" class="telefonodato"></span>
+                        </div>
+                    </div>
+                    <div class="datos row text-center secciones">
+                        <div class="izq col-6">
+                            <h3>Gusto</h3>
+                        </div>
+                        <div class="der col-6">
+                            <span id="gusto" class="gusto"></span>
+                        </div>
+                    </div>
+                    <div class="datos row text-center secciones ultimo">
+                        <div class="izq col-6">
+                            <h3>Porcentaje %</h3>
+                        </div>
+                        <div class="der col-6">
+                            <spani id="porcentaje" class="porcentaje"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="datos.js"></script>
+</body>
+</html>

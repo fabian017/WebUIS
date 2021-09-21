@@ -1,0 +1,186 @@
+.cuerpo{
+    font-family: 'Noto Sans', sans-serif;
+    background-color: #eaeaea;
+}
+
+
+.container{
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.card{
+    justify-content: center;
+}
+
+button{
+    color:white;
+    background-color: #27a844;
+}
+
+button:hover{
+background-color: #27a844;
+}
+
+h1{
+    color: #a29ea0;
+    font-weight: 320;
+}
+
+
+.titulo{
+    margin-bottom: 30px;
+}
+
+h2{
+    color: #a29ea0;
+    margin: 20px;
+    font-size: 20px;
+}
+
+
+
+.bandera{
+    background-color: #27a844;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: -10px;
+    font-size: 24px;
+}
+
+.alineacion{
+    display: flex;
+}
+
+.sombra{
+    border-radius: 15px;
+}
+
+.resultado{
+    color: rgb(77, 77, 77);
+    font-weight: 600;
+}
+
+.portada{
+    background-color: #16a3b9;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    color: white;
+}
+
+img{
+    width: 90px;
+}
+
+.secciones{
+    border-bottom: 1px solid #d0d0d0;
+    color: #0d96b9;
+}
+
+.datos{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.ultimo{
+    border-color: white;
+}
+
+h3{
+    font-weight: 400;
+    font-size: 22px;
+}
+
+.izq{
+    display: flex;
+    align-items: center;
+}
+
+.der{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+b{
+    font-weight: 900;;
+}
+
+.div1{
+    justify-content: flex-start;
+    text-align: start;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.div2{
+    margin-right: 10px;
+}
+
+.divs{
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 14px;
+}
+
+.afinal{
+    display: flex;
+    justify-content: flex-start;
+    text-align: start;
+    margin-bottom: 17px;
+    margin-left: 8px;
+}
+
+.link{
+    color: blue;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.link:hover{
+    color: black;
+    text-decoration: underline;
+}
+
+.der span{
+    color: white;
+}
+
+.nombreregistro{
+    color: white;
+}
+
+.emaildato{
+    background-color: #0278fa;
+    padding: 2px 10px;
+    border-radius: 7px;
+}
+
+.telefonodato{
+    background-color: #16a3b9;
+    padding: 2px 10px;
+    border-radius: 7px;
+}
+
+.gusto{
+    background-color: #27a644;
+    padding: 2px 10px;
+    border-radius: 7px;
+}
+
+.porcentaje{
+    background-color: #da3743;
+    padding: 2px 10px;
+    border-radius: 7px;
+    color: white;
+}
+.ficha{
+    color: white;
+}
