@@ -1,3 +1,7 @@
+function alerta(){
+    alert("Se guardaron los datos");
+}
+
 $(document).ready(function () {
     var departamentoOptions;
     $.ajax({
@@ -39,8 +43,8 @@ $(document).ready(function () {
 document.querySelector('#btt').addEventListener('click', validar);
 
 function validar() {
-    var p1 = document.getElementById("pass").value;
-    var p2 = document.getElementById("copass").value;
+    var p1 = document.getElementById("floatingPassword").value;
+    var p2 = document.getElementById("floatingPassword2").value;
     var espacios = false;
     var cont = 0;
 
