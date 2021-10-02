@@ -1,0 +1,71 @@
+
+
+html,body{
+background-image: url('http://getwallpapers.com/wallpaper/full/a/5/d/544750.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+height: 110%;
+width: 120%;    
+font-family: 'Numans', sans-serif;
+    font-size: 15px;
+}
+    
+.wrapper {
+    text-align: center;
+    
+}
+
+.busqueda{
+    margin: 20px 600px;
+    
+    display: flex;
+    
+}
+table { 
+
+  margin: 20px 25px; 
+  
+}
+      
+ table td {
+     border: 2px solid #ccc; 
+     background-color: #EAEAEA;
+     height: 5px;
+     
+ 
+}
+
+table th{
+    border: 2px solid #272727; 
+    height: 5px;
+ padding: 2px;
+}
+
+small{
+    color: #fff;
+}
+
+thead{
+    background-color: #70d5fa;
+    color: #fff; 
+    font-size: 17px;
+}
+
+
+input{
+    float: left;
+    border-radius: 5px;
+    outline: none;
+    width: 600px;
+    height: 20px;
+    padding-left: 10px;
+    border: 1px  #454545;
+}
+input:hover{
+    background-color: #EAEAEA;
+    cursor: pointer;   
+}
+
+input:focus{
+     background-color: #EAEAEA;
+}

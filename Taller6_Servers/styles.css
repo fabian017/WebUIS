@@ -13,6 +13,15 @@ height: 100%;
 align-content: center;
 }
 
+.centrar{
+    text-align: center;
+}
+
+.quitar{
+    text-decoration: none;
+    color:black;
+}
+
 .card{
 height: 280px;
 margin-top: auto;
@@ -47,7 +56,16 @@ right: 20px;
 top: -45px;
 }
 
+i{
+    color :aqua;
+}
 
+.cuadro{
+    margin: 20px 200px;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+   border-style: solid;
+    
+}
 
 .card-body p{
     font-weight: 800;
@@ -110,4 +128,14 @@ color: white;
 
 .links a{
 margin-left: 4px;
+}
+
+
+
+.ocultar {
+    display: none;
+}
+ 
+.mostrar {
+    display: block;
 }
