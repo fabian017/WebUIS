@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+
+{% block extrahead %}
+<title>Ciudades</title>
+{% endblock extrahead %}
+
+
+{% block content %}
+<div class="container"></div>
+    <h1>Lista de Personas</h1>
+    {% if personas %}
+        <ul>
+            {% for personan in personas %}
+            <li>
+                <b>Nombre: </b>{{ personan.nombres}}      <b>Apellidos: </b>{{ personan.apellidos}}         
+                <b>Telefono: </b>{{ personan.telefono}} <b>Usuario: </b>{{ personan.usuario}}
+                <a class="btn btn-info" href="{% url 'editar_persona' personan.id %}">Editar</a>
+                <a class="btn btn-danger" href="{% url 'eliminar_persona' personan.id %}">Eliminar</a>
+            </li>
+            {% endfor %}
+        </ul>
+    {% endif %}
+    {% if mensaje %}
+    <div class="alert alert-succes" role="alert">
+        Persona eliminada exitosamente!
+    </div>
+    {% endif %}
+</div>
+{% endblock content %}

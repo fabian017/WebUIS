@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taller 8</title>
+</head>
+<body>
+    <h1>Esta es la pagina principal de personas</h1>
+    <table>
+        <thead>
+            <th>Persona</th>
+            <th>Ciudad</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>persona 1</td>
+                <td>ciudad 1</td>
+            </tr>
+            <tr>
+                <td>persona 2</td>
+                <td>ciudad 2</td>
+            </tr>
+        </tbody>
+    </table>
+    {% if ciudades %}
+        <ul>
+            {% for ciudad in ciudades %}
+                <li><b>Ciudad: </b> {{ ciudad.nombre}} <b>Descripcion: </b>{{ciudad.descripcion}}</li>
+            {% endfor %}
+        </ul>
+    {% endif %}
+
+</body>
+</html>

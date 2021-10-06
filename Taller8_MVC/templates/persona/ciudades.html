@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+{% block extrahead %}
+<title>Ciudades</title>
+{% endblock extrahead %}
+
+
+{% block content %}
+<div class="container"></div>
+    <h1>Lista de Ciudades</h1>
+    {% if ciudades %}
+    <ul>
+        {% for ciudad in ciudades %}
+        <li><b>Ciudad: </b> {{ ciudad.nombre}} <b>Descripcion: </b>{{ciudad.descripcion}}</li>
+        {% endfor %}
+    </ul>
+    {% endif %}
+</div>
+{% endblock content %}

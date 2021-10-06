@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block extrahead %}
+<title>Actualizar Persona</title>
+{% endblock extrahead %}
+
+
+{% block content %}
+<div class="container">
+    <h1>Actualizar Persona</h1>
+    <form action="{% url 'actualizar_persona' persona.id %}" method="POST">
+        {% csrf_token %}
+        {{ form }}
+        <input type="submit" value="Actualizar">
+    </form>
+</div>
+{% endblock content %}
