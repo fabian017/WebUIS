@@ -1,0 +1,48 @@
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-lg-12 offset-lg-0">
+            <div class="card">
+                <div class="card-body text-center">
+                    <span class="titulo1">LISTADO DE PARTICIPANTES</span>
+                    <button class="btn btn-success float-end" routerLink="/crear-producto">NUEVO</button>
+                    <table *ngIf="listProductos.length > 0" class="table table-striped mt-3">
+                        <thead>
+                          <tr>
+                            <th scope="col">Nombre</th>
+                            <th scope="col">Apellido</th>
+                            <th scope="col">Documento</th>
+                            <th scope="col">Fecha De Nacimiento</th>
+                            <th scope="col">Email</th>
+                            <th scope="col">Telefono</th>
+                            <th scope="col">Deporte</th>
+                            <th scope="col">Debilidades</th>
+                            <th scope="col"></th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr *ngFor = "let producto of listProductos" >
+                            <td>{{ producto.nombre }}</td>
+                            <td>{{ producto.apellido }}</td>
+                            <td>{{ producto.documento }}</td>
+                            <td>{{ producto.fecha }}</td>
+                            <td>{{ producto.email }}</td>
+                            <td>{{ producto.telefono }}</td>
+                            <td>{{ producto.usuario }}</td>
+                            <td>{{ producto.password }}</td>
+                            <td>
+                                <i [routerLink]="['/editar-producto', producto._id]" class="fas fa-edit text-primary"></i>
+                                <i (click)="eliminarProducto(producto._id)" class="fas fa-trash text-danger"></i>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                      <h5 style="text-align: start; margin-top: 10px;" *ngIf="listProductos.length==0">No hay personas para mostarar</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="anos">
+  <a href="#" routerLink="/Inicio">inicio</a>
+</div>

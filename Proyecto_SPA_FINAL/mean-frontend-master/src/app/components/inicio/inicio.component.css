@@ -1,0 +1,124 @@
+
+.contenedor{
+    height: 200px;
+    width: 200px;
+    perspective: 1000px;
+    margin: 100px auto;
+    transform:scale(.9)rotateX(-10deg);
+    transform-style: preserve-3d; 
+  
+}
+.contenedor .box{
+    animation: rotar 50s infinite linear;
+    height: 100%;
+    width: 100%;
+    transform-style: preserve-3d;
+   transition: 2s;
+}
+.elementos{
+    height: 200px;
+    width: 150px;
+    position: absolute;
+    box-shadow: 0 0 10px #fff;
+}
+:root{
+    --transladacion:translateZ(250px);
+}
+.elementos:nth-child(1){
+    transform: rotateY(0deg) var(--transladacion);
+}
+.elementos:nth-child(2){
+    transform: rotateY(45deg) var(--transladacion);
+}
+.elementos:nth-child(3){
+    transform: rotateY(90deg) var(--transladacion);
+}
+.elementos:nth-child(4){
+    transform: rotateY(135deg) var(--transladacion);
+}
+.elementos:nth-child(5){
+    transform: rotateY(180deg) var(--transladacion);
+}
+.elementos:nth-child(6){
+    transform: rotateY(225deg) var(--transladacion);
+}
+.elementos:nth-child(7){
+    transform: rotateY(270deg) var(--transladacion);
+}
+.elementos:nth-child(8){
+    transform: rotateY(315deg) var(--transladacion);
+}
+.elementos:nth-child(9){
+    transform: rotateY(360deg) var(--transladacion);
+}
+.elementos img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    -webkit-box-reflect: below 10px linear-gradient(transparent, transparent, #0005);
+    position: absolute;
+    backface-visibility: hidden; 
+}
+
+.piso{
+    height: 43em;
+    width:43em;
+    transform: rotateX(90deg) translateX(-280px) translateY(40px)translateZ(140px);
+     background: -webkit-radial-gradient(center center, farthest-side , #9993, transparent);
+    border-radius: 50%;
+    transform-style: preserve-3d;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.titulo{
+    height: 200px;
+    width: 500px;
+    flex-direction: column;
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 1.7em;
+    transform: rotateX(-90deg);
+
+}
+
+@keyframes rotar{
+   
+    to{
+        transform: rotateY(-360deg) ;
+    }
+}
+
+
+
+
+.anos{
+    padding: 60px 0;
+   display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+
+
+ a{
+    text-decoration:none;
+    color: #f9f5f1;
+    border:2px solid;
+    padding: 15px 30px;
+    font-style: oblique;
+    font-family: 'Lora', serif;
+    font-size: 20px;
+    background: #198754; 
+    margin-bottom: 20px;
+}
+
+a:hover{
+    border-color: #280400;
+    color:#280400;
+    background: #f9f5f1;
+}
+
